@@ -1,0 +1,339 @@
+.navbar {
+  z-index: 999;
+  position: relative;
+}
+.navbar-brand {
+  font-size: 32px;
+  font-family: 'Viga';
+}
+
+/* Button Join us */
+.button-join {
+  text-transform: none;
+  border-radius: 20px;
+  width: 100%;
+  background-image: linear-gradient(to top, rgba(35, 149, 255, 1), rgb(255, 255, 255));
+  color: #3f67d3;
+  font-weight: bold;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.8);
+}
+
+/* Jumbotron */
+.jumbotron {
+  background-image: url('img/bg-image2.jpg');
+  background-size: cover;
+  height: 540px;
+  text-align: center;
+  position: relative;
+}
+
+.container {
+  z-index: 1;
+  position: relative;
+}
+
+.jumbotron::after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(to top, rgba(19, 19, 19, 1), rgba(121, 121, 121, 0.411), rgba(0, 0, 0, 0));
+  position: absolute;
+  bottom: 0;
+}
+.display-4 {
+  color: #ffffff;
+  text-align: center;
+  margin-top: 250px;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.8);
+  font-size: 40px;
+  display: inline-block;
+}
+.faster {
+  background-color: #ffffff;
+  border-radius: 10px;
+  color: #ffb032;
+  font-weight: bold;
+  display: inline-block;
+  width: 130px;
+}
+
+.better {
+  font-weight: bold;
+}
+/* Container */
+.container {
+  position: relative;
+}
+
+/* kotak panel */
+
+.kotak-panel {
+  box-shadow: 0 3px 20px rgba(0, 0, 0, 0.8);
+  border-radius: 50px;
+  margin-top: -70px;
+  background-image: linear-gradient(to top, rgb(255, 255, 255), rgb(35, 149, 255));
+  padding: 30px;
+  position: relative;
+}
+
+.kotak-panel img {
+  width: 100px;
+  height: 100px;
+  margin-right: 20px;
+}
+
+.kotak-panel .float-icon {
+  float: left;
+}
+
+.kotak-panel p {
+  color: #5f5f5f;
+  font-size: 23px;
+  font-weight: 600;
+  margin-top: 20px;
+}
+.kotak-panel h4 {
+  color: #213b81;
+  font-size: 25px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+/* Section 1 and Section 2*/
+.section-1,
+.section-2 {
+  margin-top: 150px;
+}
+.section-1 .gambar-1,
+.section-2 .gambar-2 {
+  border-radius: 20px;
+}
+.section-1 h2,
+.section-2 h2 {
+  text-transform: uppercase;
+  color: #213b81;
+  font-size: 30px;
+  font-weight: 400;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.section-1 span,
+.section-2 h2 {
+  font-weight: bold;
+}
+
+.section-1 p,
+.section-2 p {
+  font-size: 25px;
+  margin: 30px 0;
+}
+
+.button-view {
+  text-transform: uppercase;
+  width: 100px;
+  border-radius: 20px;
+  margin-top: 10px;
+}
+
+/* Section 2 */
+.section-2 {
+  /* background-image: linear-gradient(to top, rgb(255, 255, 255), rgb(235, 228, 220), rgb(255, 255, 255)); */
+  margin: 150px 0 auto;
+}
+
+/* testimoni */
+.testimoni {
+  margin-top: 20px;
+  position: relative;
+}
+.testimoni h2,
+.contact h2 {
+  text-transform: uppercase;
+  color: #213b81;
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 150px;
+  text-align: center;
+}
+
+.testimoni .quotes h5 {
+  text-align: center;
+  font-weight: 200;
+  font-style: italic;
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.testimoni .figure p {
+  font-size: 12px;
+  margin-top: -10px;
+}
+
+.testimoni figure img {
+  width: 60px;
+}
+
+.testimoni .figure h5 {
+  color: #414141;
+  font-size: 14px;
+  font-weight: 600;
+  font-weight: 500;
+  font-style: normal;
+  text-align: center;
+  margin-top: 5px;
+}
+.testimoni figure img {
+  width: 60px;
+  margin: 10px 10px 0;
+  opacity: 0.5;
+}
+.testimoni figure .profile-2 {
+  opacity: 1;
+}
+.testimoni .figure .profile-1,
+.testimoni .figure .profile-3 {
+  width: 45px;
+  margin-top: 15px;
+}
+
+/* Footer */
+.footer {
+  background-color: #2a2a2a;
+  color: #a3a3a3;
+  text-align: center;
+  font-size: 14px;
+  height: 100px;
+  line-height: 100px;
+  margin-top: 150px;
+}
+
+/* Contact */
+.contact {
+  margin-top: 130px;
+}
+
+.contact h2 {
+  margin-top: 0;
+}
+.contact svg {
+  width: 30px;
+  height: 30px;
+}
+.contact .icon {
+  margin: 35px auto;
+}
+.contact .icon .icon-whatsapp,
+.contact .icon .icon-linkedin,
+.contact .icon .icon-email {
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+/* Desktop Version */
+@media (min-width: 992px) {
+  .navbar-brand,
+  .nav-link {
+    color: #ffffff !important;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.8);
+  }
+  .nav-link {
+    text-transform: uppercase;
+    margin-right: 30px;
+  }
+
+  .nav-link:hover::after {
+    content: '';
+    display: block;
+    border-bottom: 3px solid #646464;
+    width: 50%;
+    margin: auto;
+    padding-bottom: 5px;
+    margin-bottom: -8px;
+  }
+
+  .button-join {
+    text-transform: uppercase;
+  }
+  .jumbotron {
+    margin-top: -75px;
+    height: 640px;
+  }
+
+  .display-4 {
+    font-size: 62px;
+  }
+  .faster {
+    width: 200px;
+  }
+  .kotak-panel {
+    height: 180px;
+  }
+  .kotak-panel .icon-time {
+    margin-left: 50px;
+  }
+  .kotak-panel .icon-security {
+    margin-right: 50px;
+  }
+  .kotak-panel .float-icon {
+    float: right;
+    margin-left: 20px;
+  }
+  .kotak-panel p {
+    color: #5f5f5f;
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 5px;
+  }
+  .kotak-panel .text-security {
+    text-align: right;
+  }
+  .kotak-panel h4 {
+    color: #213b81;
+    font-size: 25px;
+    font-weight: bold;
+    position: absolute;
+    text-transform: uppercase;
+    bottom: 10px;
+  }
+
+  .kotak-panel .hours {
+    left: 62px;
+  }
+
+  .kotak-panel .security {
+    right: 93px;
+  }
+
+  .section-1 .deskripsi {
+    margin-left: 20px;
+  }
+
+  .section-1 h2,
+  .section-2 h2,
+  .testimoni h2 {
+    text-align: left;
+    font-size: 40px;
+  }
+
+  .testimoni h5 {
+    font-size: 32px;
+  }
+
+  .testimoni .quotes h5 {
+    font-size: 24px;
+  }
+  .testimoni figure img {
+    width: 70px;
+    margin: 10px 10px 0;
+    opacity: 0.5;
+  }
+  .testimoni figure .profile-2 {
+    opacity: 1;
+  }
+  .testimoni .figure .profile-1,
+  .testimoni .figure .profile-3 {
+    width: 50px;
+    margin-top: 20px;
+  }
+}
